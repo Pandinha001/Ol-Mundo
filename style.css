@@ -1,0 +1,508 @@
+/*CONFIGURAÇÕES GERAIS*/
+* {
+  box-sizing: border-box;
+  }
+
+  body {
+margin: 0;
+background-color: #36303B;
+}
+
+/*PÁGINA PRINCIPAL*/
+.pag_principal {
+max-width: 1180px;
+margin: 30px auto;
+background-color: #FFF6F6;
+}
+
+/*BARRA SUPERIOR*/
+.navegador {
+background-color: #36303B;
+padding: 12px;
+display: flex;
+align-items: center;
+}
+
+/* BOLINHAS */
+.bolinhas {
+display: flex;
+gap: 5px;
+}
+
+.bolinhas span {
+width: 10px;
+height: 10px;
+background-color: #8B8782;
+border-radius: 50%;
+}
+
+/*MENU*/
+.menu {
+background-color: #4C091D;
+display: flex;
+padding: 10px;
+gap: 10px;
+}
+
+.menu a {
+color: white;
+text-decoration: none;
+padding: 10px;
+}
+
+.menu a:hover {
+background-color: #580A25;
+}
+
+/* PÁGINA ATUAL */
+.menu .index {
+border-bottom: 2px solid white;
+}
+
+/*LOGIN E CADASTRO*/
+.login {
+display: flex;
+min-height: 560px;
+}
+
+/*LADO DOS TEXTOS*/
+.textos {
+width: 50%;
+background-color: #36303B;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 40px;
+}
+
+.inicio {
+max-width: 350px;
+}
+
+/* LOGO */
+.logo {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+/* TÍTULO */
+.inicio h1 {
+font-size: 34px;
+}
+
+/* PARÁGRAFO */
+.inicio p {
+line-height: 1.6;
+}
+
+/*FORMULÁRIO*/
+.formulario {
+width: 50%;
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.formulario h2 {
+color: #4C091D;
+}
+
+.subtitulo {
+color: #8B8782;
+margin-bottom: 30px;
+}
+
+/*CAMPOS DO FORMULÁRIO*/
+.campo {
+margin-bottom: 15px;
+}
+
+.campo label {
+display: block;
+margin-bottom: 5px;
+color: #4C091D;
+font-weight: bold;
+}
+
+.campo input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+
+}
+
+/*BOTÃO LOGIN*/
+.botao_login {
+background-color: #580A25;
+color: white;
+border: none;
+padding: 12px;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+margin-top: 10px;
+}
+.botao_login:hover {
+background-color: #4C091D;
+}
+
+/*TROCAR DE CONTA*/
+.trocar_conta {
+margin-top: 20px;
+color: #8B8782;
+text-align: center;
+}
+.trocar_conta a {
+color: #580A25;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*HERO*/
+.hero {
+background-color: #4C091D;
+color: white;
+padding: 50px;
+}
+
+.eyebrow {
+font-size: 13px;
+margin-bottom: 10px;
+}
+
+.hero h1 {
+font-size: 32px;
+}
+
+.hero p {
+line-height: 1.6;
+}
+
+/*LINKS DA PÁGINA INICIAL*/
+.quick-links {
+display: flex;
+gap: 10px;
+padding: 25px;
+flex-wrap: wrap;
+}
+
+.quick-links a {
+border: 1px solid #4C091D;
+color: #4C091D;
+padding: 12px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.quick-links a:hover {
+background-color: #4C091D;
+color: white;
+}
+
+/*CONTEÚDO GERAL*/
+
+.content-pad {
+padding: 40px;
+}
+
+.section-title {
+color: #4C091D;
+}
+
+.section-desc {
+color: #555;
+line-height: 1.6;
+}
+
+/*FOOTER*/
+
+.site-footer {
+background-color: #36303B;
+color: white;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.site-footer a {
+color: white;
+text-decoration: none;
+}
+
+/*DICAS E MÉTODOS*/
+.methods-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.method-card {
+background-color: white;
+padding: 20px;
+border-left: 4px solid #580A25;
+border-radius: 5px;
+}
+
+.method-card h3 {
+color: #4C091D;
+}
+
+.method-card p {
+color: #555;
+line-height: 1.5;
+}
+
+/*COMENTÁRIOS*/
+.comments-panel {
+background-color: white;
+padding: 20px;
+margin-top: 30px;
+border: 1px solid #ccc;
+border-radius: 10px;
+}
+
+.comments-panel h4 {
+color: #4C091D;
+}
+
+/* COMENTÁRIO */
+
+.comment {
+display: flex;
+gap: 10px;
+padding: 15px 0;
+border-bottom: 1px solid #ddd;
+}
+
+/* FOTO / INICIAL DO USUÁRIO */
+
+.avatar {
+width: 35px;
+height: 35px;
+background-color: #4C091D;
+color: white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* TEXTO DO COMENTÁRIO */
+
+.comment-body {
+flex: 1;
+}
+
+.name {
+font-weight: bold;
+color: #4C091D;
+}
+
+.text {
+color: #555;
+}
+
+/* CAMPO PARA COMENTAR */
+
+.comment-form {
+display: flex;
+gap: 10px;
+margin-top: 15px;
+}
+
+.comment-form input {
+flex: 1;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.comment-form button {
+background-color: #580A25;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/*SITES RECOMENDADOS*/
+.subject-cols {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+}
+
+.subject-col h3 {
+background-color: #4C091D;
+color: white;
+padding: 10px;
+}
+
+.site-item {
+padding: 15px 0;
+border-bottom: 1px solid #ddd;
+}
+
+.site-name {
+font-weight: bold;
+color: #4C091D;
+}
+
+.site-desc {
+color: #555;
+}
+
+/*MONITORIAS*/
+
+.schedule-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.day-card {
+background-color: white;
+padding: 20px;
+border-top: 4px solid #580A25;
+border-radius: 5px;
+}
+
+.day-card h4 {
+color: #4C091D;
+}
+
+.slot {
+margin-top: 10px;
+color: #555;
+}
+
+.slot b {
+color: #4C091D;
+}
+
+/*MAPA DE MÉTODOS*/
+
+.mindmap-wrap {
+background-color: white;
+padding: 30px;
+border-radius: 10px;
+}
+
+.mindmap {
+position: relative;
+width: 100%;
+height: 440px;
+}
+
+/* CENTRO DO MAPA */
+
+.mm-center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 120px;
+height: 120px;
+background-color: #580A25;
+color: white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* CAIXAS DO MAPA */
+
+.mm-node {
+position: absolute;
+width: 190px;
+background-color: #FFF6F6;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.mm-node h5 {
+margin: 0 0 5px 0;
+color: #4C091D;
+}
+
+.mm-node p {
+margin: 0;
+color: #555;
+}
+
+/* LINHAS DO MAPA */
+
+.mm-line {
+position: absolute;
+height: 2px;
+background-color: #8B8782;
+transform-origin: left;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 760px) {
+
+/* LOGIN */
+
+.login {
+    flex-direction: column;
+}
+
+.textos,
+.formulario {
+    width: 100%;
+}
+
+/* MENU */
+
+.menu {
+    flex-wrap: wrap;
+}
+
+/* MÉTODOS */
+
+.methods-grid {
+    grid-template-columns: 1fr;
+}
+
+/* SITES */
+
+.subject-cols {
+    grid-template-columns: 1fr;
+}
+
+/* MONITORIAS */
+
+.schedule-grid {
+    grid-template-columns: 1fr;
+}
+
+/* MAPA */
+
+.mindmap {
+    height: auto;
+}
+
+.mm-node,
+.mm-center {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-bottom: 15px;
+    min-height: 80px;
+}
+
+.mm-line {
+    display: none;
+}
+}
