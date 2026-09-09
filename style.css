@@ -164,22 +164,22 @@ text-decoration: none;
 }
 
 /*HERO*/
-.hero {
+.cabeca {
 background-color: #4C091D;
 color: white;
 padding: 50px;
 }
 
-.eyebrow {
+.titulo_inferior {
 font-size: 13px;
 margin-bottom: 10px;
 }
 
-.hero h1 {
+.cabeca h1 {
 font-size: 32px;
 }
 
-.hero p {
+.cabeca p {
 line-height: 1.6;
 }
 
@@ -236,30 +236,30 @@ text-decoration: none;
 }
 
 /*DICAS E MÉTODOS*/
-.methods-grid {
+.area_metodo{
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 20px;
 }
 
-.method-card {
+.area_conteudo {
 background-color: white;
 padding: 20px;
 border-left: 4px solid #580A25;
 border-radius: 5px;
 }
 
-.method-card h3 {
+.area_conteudo h3 {
 color: #4C091D;
 }
 
-.method-card p {
+.area_conteudo p {
 color: #555;
 line-height: 1.5;
 }
 
 /*COMENTÁRIOS*/
-.comments-panel {
+.area_comentario {
 background-color: white;
 padding: 20px;
 margin-top: 30px;
@@ -267,13 +267,13 @@ border: 1px solid #ccc;
 border-radius: 10px;
 }
 
-.comments-panel h4 {
+.area_comentario h4 {
 color: #4C091D;
 }
 
 /* COMENTÁRIO */
 
-.comment {
+.comentario {
 display: flex;
 gap: 10px;
 padding: 15px 0;
@@ -295,16 +295,16 @@ justify-content: center;
 
 /* TEXTO DO COMENTÁRIO */
 
-.comment-body {
+.corpo {
 flex: 1;
 }
 
-.name {
+.user {
 font-weight: bold;
 color: #4C091D;
 }
 
-.text {
+.texto {
 color: #555;
 }
 
@@ -333,29 +333,29 @@ cursor: pointer;
 }
 
 /*SITES RECOMENDADOS*/
-.subject-cols {
+.materiais {
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 30px;
 }
 
-.subject-col h3 {
+.materia h3 {
 background-color: #4C091D;
 color: white;
 padding: 10px;
 }
 
-.site-item {
+.item {
 padding: 15px 0;
 border-bottom: 1px solid #ddd;
 }
 
-.site-name {
+.nome {
 font-weight: bold;
 color: #4C091D;
 }
 
-.site-desc {
+.descricao {
 color: #555;
 }
 
@@ -367,23 +367,23 @@ grid-template-columns: 1fr 1fr;
 gap: 20px;
 }
 
-.day-card {
+.dia {
 background-color: white;
 padding: 20px;
 border-top: 4px solid #580A25;
 border-radius: 5px;
 }
 
-.day-card h4 {
+.dia h4 {
 color: #4C091D;
 }
 
-.slot {
+.monit {
 margin-top: 10px;
 color: #555;
 }
 
-.slot b {
+.monit b {
 color: #4C091D;
 }
 
@@ -471,13 +471,13 @@ transform-origin: left;
 
 /* MÉTODOS */
 
-.methods-grid {
+.area_metodo {
     grid-template-columns: 1fr;
 }
 
 /* SITES */
 
-.subject-cols {
+.materiais {
     grid-template-columns: 1fr;
 }
 
@@ -489,12 +489,12 @@ transform-origin: left;
 
 /* MAPA */
 
-.mindmap {
+.metodo_mapa {
     height: auto;
 }
 
-.mm-node,
-.mm-center {
+.metodo_mapa,
+.centro {
     position: static;
     transform: none;
     width: 100%;
