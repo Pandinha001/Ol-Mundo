@@ -4,448 +4,420 @@
   }
 
   body {
-margin: 0;
-background-color: #36303B;
+    margin: 0;
+    background-color: #36303B;
 }
 
 /*PÁGINA PRINCIPAL*/
 .pag_principal {
-max-width: 1180px;
-margin: 30px auto;
-background-color: #FFF6F6;
+    max-width: 1180px;
+    margin: 30px auto;
+    background-color: #FFF6F6;
 }
 
 /*BARRA SUPERIOR*/
 .navegador {
-background-color: #36303B;
-padding: 12px;
-display: flex;
-align-items: center;
-}
-
-/* BOLINHAS */
-.bolinhas {
-display: flex;
-gap: 5px;
-}
-
-.bolinhas span {
-width: 10px;
-height: 10px;
-background-color: #8B8782;
-border-radius: 50%;
+    background-color: #36303B;
+    padding: 12px;
+    display: flex;
+    align-items: center;
 }
 
 /*MENU*/
 .menu {
-background-color: #4C091D;
-display: flex;
-padding: 10px;
-gap: 10px;
+    background-color: #4C091D;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
 }
 
 .menu a {
-color: white;
-text-decoration: none;
-padding: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
 
 .menu a:hover {
-background-color: #580A25;
+    background-color: #580A25;
 }
 
 /* PÁGINA ATUAL */
 .menu .index {
-border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 /*LOGIN E CADASTRO*/
 .login {
-display: flex;
-min-height: 560px;
+    display: flex;
+    min-height: 560px;
 }
 
 /*LADO DOS TEXTOS*/
 .textos {
-width: 50%;
-background-color: #36303B;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 40px;
+    width: 50%;
+    background-color: #36303B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
 
 .inicio {
-max-width: 350px;
+    max-width: 350px;
 }
 
 /* LOGO */
 .logo {
-font-size: 18px;
-font-weight: bold;
-margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 /* TÍTULO */
 .inicio h1 {
-font-size: 34px;
+    font-size: 34px;
 }
 
 /* PARÁGRAFO */
 .inicio p {
-line-height: 1.6;
+    line-height: 1.6;
 }
 
 /*FORMULÁRIO*/
 .formulario {
-width: 50%;
-padding: 50px;
-display: flex;
-flex-direction: column;
-justify-content: center;
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .formulario h2 {
-color: #4C091D;
+    color: #4C091D;
 }
 
 .subtitulo {
-color: #8B8782;
-margin-bottom: 30px;
+    color: #8B8782;
+    margin-bottom: 30px;
 }
 
 /*CAMPOS DO FORMULÁRIO*/
 .campo {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .campo label {
-display: block;
-margin-bottom: 5px;
-color: #4C091D;
-font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #4C091D;
+    font-weight: bold;
 }
 
 .campo input {
-width: 100%;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 
 }
 
 /*BOTÃO LOGIN*/
 .botao_login {
-background-color: #580A25;
-color: white;
-border: none;
-padding: 12px;
-border-radius: 5px;
-text-align: center;
-text-decoration: none;
-cursor: pointer;
-margin-top: 10px;
+    background-color: #580A25;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
 }
 .botao_login:hover {
-background-color: #4C091D;
+    background-color: #4C091D;
 }
 
 /*TROCAR DE CONTA*/
 .trocar_conta {
-margin-top: 20px;
-color: #8B8782;
-text-align: center;
+    margin-top: 20px;
+    color: #8B8782;
+    text-align: center;
 }
 .trocar_conta a {
-color: #580A25;
-font-weight: bold;
-text-decoration: none;
+    color: #580A25;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /*HERO*/
 .cabeca {
-background-color: #4C091D;
-color: white;
-padding: 50px;
+    background-color: #4C091D;
+    color: white;
+    padding: 50px;
 }
 
 .titulo_inferior {
-font-size: 13px;
-margin-bottom: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 
 .cabeca h1 {
-font-size: 32px;
+    font-size: 32px;
 }
 
 .cabeca p {
-line-height: 1.6;
+    line-height: 1.6;
 }
 
-/*LINKS DA PÁGINA INICIAL*/
-.quick-links {
-display: flex;
-gap: 10px;
-padding: 25px;
-flex-wrap: wrap;
-}
-
-.quick-links a {
-border: 1px solid #4C091D;
-color: #4C091D;
-padding: 12px;
-border-radius: 5px;
-text-decoration: none;
-}
-
-.quick-links a:hover {
-background-color: #4C091D;
-color: white;
-}
 
 /*CONTEÚDO GERAL*/
 
 .conteudo{
-padding: 40px;
+    padding: 40px;
 }
 
 .titulo {
-color: #4C091D;
+    color: #4C091D;
 }
 
 .descricao {
-color: #555;
-line-height: 1.6;
+    color: #555;
+    line-height: 1.6;
 }
 
 /*FOOTER*/
 
 .site-footer {
-background-color: #36303B;
-color: white;
-padding: 30px;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+    background-color: #36303B;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .site-footer a {
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 /*DICAS E MÉTODOS*/
 .area_metodo{
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .area_conteudo {
-background-color: white;
-padding: 20px;
-border-left: 4px solid #580A25;
-border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    border-left: 4px solid #580A25;
+    border-radius: 5px;
 }
 
 .area_conteudo h3 {
-color: #4C091D;
+    color: #4C091D;
 }
 
 .area_conteudo p {
-color: #555;
-line-height: 1.5;
+    color: #555;
+    line-height: 1.5;
 }
 
 /*COMENTÁRIOS*/
 .area_comentario {
-background-color: white;
-padding: 20px;
-margin-top: 30px;
-border: 1px solid #ccc;
-border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
 
 .area_comentario h4 {
-color: #4C091D;
+    color: #4C091D;
 }
 
 /* COMENTÁRIO */
 
 .comentario {
-display: flex;
-gap: 10px;
-padding: 15px 0;
-border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
 }
 
 /* FOTO / INICIAL DO USUÁRIO */
 
 .avatar {
-width: 35px;
-height: 35px;
-background-color: #4C091D;
-color: white;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #4C091D;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* TEXTO DO COMENTÁRIO */
 
 .corpo {
-flex: 1;
+    display: flex;
+    flex: 1;
 }
 
 .user {
-font-weight: bold;
-color: #4C091D;
+    font-weight: bold;
+    color: #4C091D;
 }
 
 .texto {
-color: #555;
+    color: #555;
 }
 
 /* CAMPO PARA COMENTAR */
 
 .comment-form {
-display: flex;
-gap: 10px;
-margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
 }
 
 .comment-form input {
-flex: 1;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .comment-form button {
-background-color: #580A25;
-color: white;
-border: none;
-padding: 10px 20px;
-border-radius: 5px;
-cursor: pointer;
+    background-color: #580A25;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /*SITES RECOMENDADOS*/
 .materiais {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
 
 .materia h3 {
-background-color: #4C091D;
-color: white;
-padding: 10px;
+    background-color: #4C091D;
+    color: white;
+    padding: 10px;
 }
 
 .item {
-padding: 15px 0;
-border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
 }
 
 .nome {
-font-weight: bold;
-color: #4C091D;
+    font-weight: bold;
+    color: #4C091D;
 }
 
 .descricao {
-color: #555;
+    color: #555;
 }
 
 /*MONITORIAS*/
 
 .schedule-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .dia {
-background-color: white;
-padding: 20px;
-border-top: 4px solid #580A25;
-border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    border-top: 4px solid #580A25;
+    border-radius: 5px;
 }
 
 .dia h4 {
-color: #4C091D;
+    color: #4C091D;
 }
 
 .monit {
-margin-top: 10px;
-color: #555;
+    margin-top: 10px;
+    color: #555;
 }
 
 .monit b {
-color: #4C091D;
+    color: #4C091D;
 }
 
 /*MAPA DE MÉTODOS*/
 
 .area_mapa {
-background-color: white;
-padding: 30px;
-border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .mapa_mental {
-position: relative;
-width: 100%;
-height: 440px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 440px;
 }
 
 /* CENTRO DO MAPA */
 
 .centro {
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
-width: 120px;
-height: 120px;
-background-color: #580A25;
-color: white;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #580A25;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* CAIXAS DO MAPA */
 
 .metodo_mapa {
-position: absolute;
-width: 190px;
-background-color: #FFF6F6;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
+    display: flex;
+    position: absolute;
+    width: 190px;
+    background-color: #FFF6F6;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .metodo_mapa h5 {
-margin: 0 0 5px 0;
-color: #4C091D;
+    margin: 0 0 5px 0;
+    color: #4C091D;
 }
 
 .metodo_mapa p {
-margin: 0;
-color: #555;
+    margin: 0;
+    color: #555;
 }
 
 /* LINHAS DO MAPA */
 
 .mm-line {
-position: absolute;
-height: 2px;
-background-color: #8B8782;
-transform-origin: left;
+    position: absolute;
+    height: 2px;
+    background-color: #8B8782;
+    transform-origin: left;
 }
 
 /*RESPONSIVIDADE*/
@@ -455,6 +427,7 @@ transform-origin: left;
 /* LOGIN */
 
 .login {
+    display: flex;
     flex-direction: column;
 }
 
@@ -466,18 +439,21 @@ transform-origin: left;
 /* MENU */
 
 .menu {
+    display: flex;
     flex-wrap: wrap;
 }
 
 /* MÉTODOS */
 
 .area_metodo {
+    display: grid;
     grid-template-columns: 1fr;
 }
 
 /* SITES */
 
 .materiais {
+    display: grid;
     grid-template-columns: 1fr;
 }
 
@@ -505,4 +481,143 @@ transform-origin: left;
 .mm-line {
     display: none;
 }
+}
+
+/*AGENDA*/
+
+.body-agenda {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    /*
+    background-color: #9b85bb;
+    */
+}
+
+
+.lista-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.lista-navbar img {
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+    display: block;
+}
+
+.main-agenda {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+
+.dias-semana {  
+    background-color: #b4b1ac;
+    width: 25%;
+    height: 100%;
+    
+    
+}
+
+.calendario {
+    background-color: #8B8782;
+    width: 75%;
+    height: 100%;
+    
+ 
+}
+
+.tabela-calendario {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+ 
+   
+}
+
+.coluna-calendario {
+    padding: 30px;
+}
+
+.mes-ano-calendario {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.container-tabela {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+
+}
+
+.dia {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.titulo-dia-semana  {
+    position: absolute;
+    top: -17px;
+    left: 30;
+    z-index: 10;
+    margin: 0;
+    padding: 2px, 14px;
+    font-size: 14px;
+    border: 1px solid black;
+    
+}
+
+.tabela-dias-semana {
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid black;
+   
+}
+
+.tabela-dias-semana td {
+    height: 38px;
+    border: 1px solid black;
+}
+
+.observacoes {
+    border: 2px solid black;
+    width: 79%;
+    height: 80px;
+    background-color: #8B8782;
+}
+
+.dia:nth-child(odd) table{
+     background-color: #4C091D;
+}
+
+.dia:nth-child(even) table{
+    background-color: #8B8782;
+}
+
+.dia:nth-child(odd) h4{
+    background-color: #8B8782;
+    color: black;
+}
+
+.dia:nth-child(even) h4{
+    background-color: #4C091D;
+    color: white;
 }
